@@ -1,0 +1,148 @@
+.banner
+{
+  text-align: center;
+  padding: 50px;
+  color:#333333;
+}
+.banner button
+{
+  padding: 10px 20px;
+  background-color:  #01c6ae;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-alibgn: left;
+}
+
+.directions
+{
+  text-align: center;
+  margin: 20px;
+}
+.cards
+{
+  display: flex;
+  justify-content: space-around;
+}
+.card h2,h4
+{
+  width: 150px;
+  padding: 10px;
+  background-color: #00796B;
+  color: white;
+  border-color: #00796B;
+}
+.button
+{
+  display: inline-block;
+  padding: 10px 15px;
+  color: white;
+  background-color:  #01c6ae;
+  border: none;
+  border-radius: 5px
+}
+.card h1, h3
+{
+  width: 150px;
+  padding: 10px;
+  background-color: #333333;
+  color: white;
+}
+container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.card .icon {
+  font-size: 40px;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.card p {
+  line-height: 1.6;
+}
+
+
+
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper img {
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+}
+
+.text-box {
+  padding: 80px;
+  flex: 1;
+}
+
+h5, h6 {
+  margin: 0 0 15px;
+}
+
+h5 {
+  font-size: 26px;
+  color: #333;
+  background-color: rgba(0, 172, 151, 0.89)
+}
+
+h6 {
+  font-size: 20px;
+  color: #555;
+}
+
+p {
+  line-height: 1.8;
+  color: #444;
+}
+
+.gallery
+{
+  display: inline-block;
+  border: 1px solid rgba(0, 172, 151, 0.89);
+  margin: 5px;
+  justify-content: center;
+}
+.gallery .description
+{
+  padding: 10px;
+  text-align: center;
+}
+.gallery:hover{
+  border: 1px solid rgba(1, 124, 109, 0.89);
+}
+.gallery img{
+  width: 100%;
+  height:auto
+
+}
+gallery-item {
+  flex: 1 1 calc(33.333% - 10px);  /* 3 картинки в ряд */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Тень */
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;  /* Анимация при наведении */
+}
